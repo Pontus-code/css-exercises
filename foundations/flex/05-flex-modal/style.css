@@ -31,6 +31,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
@@ -66,4 +67,28 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.header {
+  font-size: large;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.modal {
+  padding: 8px;
+}
+
+button {
+  margin: 8px;
+}
+
+.text {
+  margin: 8px;
 }
